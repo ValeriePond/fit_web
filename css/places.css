@@ -1,0 +1,78 @@
+.section-places {
+    height: 80vh;
+    min-height: 600px;
+    background: #ffa650 url(../img/bg_shops.jpg) center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding: 170px 0 100px;
+  }
+
+  .section-places::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+  }
+
+  .section-places__container {
+    position: relative;
+    width: 520px;
+  }
+
+  .section-places__info {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: #ffa650;
+    margin: 0;
+  }
+
+  .section-places__title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 55px;
+    font-weight: 900;
+    margin: 0 0 35px;
+  }
+
+  .section__map>h1{
+    font-size: 48px;
+    text-align: center;
+    margin: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: #e78326;
+  }
+
+  .section-map__adress {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .map__item {
+    width: calc(100% / 4);
+    margin-bottom: 20px;
+    padding: 0 35px;
+    position: relative;
+    text-align: center;
+  }
+
+  .map__title{
+    font-weight: 900;
+    color: #ffa650;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+  }
+
+  .map__description{
+    margin: 0;
+    color: #9f9f9f;
+  }

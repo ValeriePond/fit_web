@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лучшая фитнес-студия в городе Каскелен</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200|Montserrat:600|Roboto:300&display=swap&subset=cyrillic" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/schedule.css">
+</head>
+<body>
+    
+    <header class="header-page" id="menu">
+      
+    
+        <div class="container header-page__container">
+          <div class="page__container__left">
+          <input type="checkbox" name="" id="toggle">
+          <div class="header-page__end">
+            <nav class="header-page__nav">
+              <ul class="header-page__ul">
+                <li class="header-page__li" >
+                  <a class="header-page__link" href="#" id="callme">
+                    <span class="header-page__text">О нас</span>
+                  </a>
+                </li>
+                <li class="header-page__li">
+                  <a class="header-page__link" href="#" id="callme2">
+                    <span class="header-page__text">Расписание</span>
+                  </a>
+                </li>
+                <li class="header-page__li">
+                  <a class="header-page__link" href="places.html">
+                    <span class="header-page__text">Аппаратная коррекция фигуры</span>
+                  </a>
+                </li>
+                <li class="header-page__li">
+                  <a class="header-page__link" href="places.html">
+                    <span class="header-page__text">Фитнес</span>
+                  </a>
+                </li>
+                <li class="header-page__li">
+                  <a class="header-page__link" href="places.html">
+                    <span class="header-page__text">Сопуствующие товары</span>
+                  </a>
+                </li>
+                <li class="header-page__li">
+                  <a class="header-page__link" href="places.html">
+                    <span class="header-page__text">Контакты</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            
+          </div>
+          <div class="header-page__hamburger">
+             <label for="toggle">&#9776</label>
+          </div>
+          
+          <div class="header-page__start">
+            <div class="logo"><a href="index.html">
+              <img class="logo__img"src="img/logo.png" alt="" height="70">
+            </a></div>
+          </div>
+        </div>
+
+          <div class="phone">
+              <a class="phone__item header-page__phone" href="tel:+77770062075">Связаться с нами</a>
+            </div>
+        </div>
+      </header>
+      
+      <div class = "schedule">
+        <h1>Расписание Тренировок</h1>
+      <table class = "schedule-table">
+        <tr>
+         <th>Время</th>
+         <th>ПН</th>
+         <th>ВТ</th>
+         <th>СР</th>
+         <th>ЧТ</th>
+         <th>ПТ</th>
+         <th>СБ</th>
+        </tr>
+        <tr><td>8.00</td><td></td><td></td><td></td><td></td><td></td><td>ТАТЬЯНА ВАЛЕРЬЕВНА</td></tr>
+        <tr><td>9.00</td><td>КРИСТИНА</td><td></td><td>КРИСТИНА</td><td></td><td>КРИСТИНА</td><td></td></tr>
+        <tr><td>10.00</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>11.00</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>12.00</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>13.00</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>14.00</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>15.00</td><td></td><td>ТАТЬЯНА ВАЛЕРЬЕВНА</td><td></td><td>ТАТЬЯНА ВАЛЕРЬЕВНА</td><td></td><td></td></tr>
+        <tr><td>16.00</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>17.00</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>18.00</td><td>КРИСТИНА</td><td></td><td>КРИСТИНА</td><td></td><td>КРИСТИНА</td><td></td></tr>
+        <tr><td>19.00</td><td>ЮЛИАНА</td><td></td><td>ЮЛИАНА</td><td></td><td>ЮЛИАНА</td><td></td></tr>
+        <tr><td>20.00</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+       </table>
+    </div>
+      <footer class="footer-page">
+        <div class="container">
+          <div class="footer-page__text">Valerie Pond 2021</div>
+        </div>
+      </footer>
+
+      <div class="popup popup-order" id="popup_order">
+        <div class="popup__wrapper">
+          <div class="popup__inner">
+            <div class="popup__content">
+              <button onclick="PopUpHide()" class="btn-close popup-close"></button>
+              <h2 class="page-title popup__title">Обратная связь</h2>
+              <div class="order">
+                <img class="order__img" src="img/1.jpg" alt="">
+                <h3 class="order__title">Напишите нам и мы обязательно с вами свяжемся</h3>
+                <form class="form">
+                  <input class="form__input" type="text" name="имя" placeholder="Имя" required>
+                  <input class="form__input" type="text" name="вопрос" placeholder="Введите текст или вопрос" required>
+                  <input class="form__input" type="text" name="телефон" placeholder="Телефон" required>
+                  <button class="btn form__btn" onclick="PopUpShow2()">Отправить</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="popup popup-thanks" id="popup-thanks">
+        <div class="popup__wrapper">
+          <div class="popup__inner">
+            <div class="popup__content">
+              <button class="btn-close popup-close" onclick="PopUpHide2()"></button>
+              <h2 class="page-title popup__title">Успешно отправлено</h2>
+              <p class="popup__subtitle">В ближайшее время мы свяжемся с вами</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="popup popup-error">
+        <div class="popup__wrapper">
+          <div class="popup__inner">
+            <div class="popup__content">
+              <button class="btn-close popup-close"></button>
+              <h2 class="page-title popup__title">Произошла ошибка</h2>
+              <p class="popup__subtitle">Пожалуйста, напишите по номеру <a class="popup__link" href="+77770062075">+7 (777) 006-20-75</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
+ <script>
+   window.onscroll = function() {
+  var scrolled = window.pageYOffset || document.documentElement.scrollTop;
+  document.getElementById('menu').style.backgroundColor= scrolled==0?"transparent":"black";
+  document.getElementById('menu').style.padding= scrolled==0?"60px":"0";
+}
+    $(document).ready(function(){    
+        PopUpHide();
+    });
+    function PopUpShow(){
+        $("#popup_order").show();
+    }
+    function PopUpHide(){
+        $("#popup_order").hide();
+    } 
+
+    function PopUpShow2(){
+        $("#popup-thanks").show();
+    }
+    function PopUpHide2(){
+        $("#popup-thanks").hide();
+    }
+
+    $("#callme").click(function() {
+    $('html, body').animate({
+        scrollTop: $(".section-catalog").offset().top
+    }, 1000);   
+});
+$("#callme2").click(function() {
+    $('html, body').animate({
+        scrollTop: $(".section-about").offset().top
+    }, 1000);   
+});
+</script>
+</body>
+</html>
